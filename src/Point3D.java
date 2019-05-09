@@ -19,6 +19,11 @@ public class Point3D extends Point2D {
     arr[2] = z;
     return arr;
   }
+  public void show(float[] arr) {
+    for (float i : arr) {
+      System.out.print(i);
+    }
+  }
   public void setXYZ(float x, float y, float z) {
     setXY(x, y);
     this.z = z;

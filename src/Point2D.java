@@ -19,15 +19,20 @@ public class Point2D {
   public void setY(float x) {
     this.y = y;
   }
+  public void setXY(float x, float y) {
+    this.x = x;
+    this.y = y;
+  }
   public float[] getXY() {
     float[] arr = new float[2];
     arr[0] = x;
     arr[1] = y;
     return arr;
   }
-  public void setXY(float x, float y) {
-    this.x = x;
-    this.y = y;
+  public void show(float[] arr) {
+    for (float i : arr) {
+      System.out.println(i);
+    }
   }
   @Override
   public String toString() {

@@ -4,5 +4,6 @@ public class Point2DTest {
     System.out.println(point2d);
     point2d = new Point2D(1.1f, 1.1f);
     System.out.println(point2d);
+    point2d.show(point2d.getXY());//used array
   }
 }
